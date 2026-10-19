@@ -35,7 +35,7 @@ def classify(message: str) -> str:
 
 def retrieve(message: str, faq: list[dict[str, Any]]) -> list[dict[str, Any]]:
     text = message.lower()
-    tokens = set(re.findall(r"[a-z0-9]{3,}", text))
+    stop_words = {"can", "you", "the", "for", "and", "how", "what", "is", "are", "in", "on", "to", "a", "of", "my", "i", "it", "please", "with"}\n    tokens = set(re.findall(r"[a-z0-9]{3,}", text)) - stop_words
     ranked = []
     for item in faq:
         keywords = set(item["keywords"])
