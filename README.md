@@ -72,3 +72,10 @@ The sample FAQ is fictional and the app stores no persistent conversation histor
 
 ## License
 MIT — see [LICENSE](LICENSE).
+
+## Explore more
+
+- [Voice AI Customer Support Agent](https://github.com/HardikPaghdar/voice-ai-customer-support-agent) — transcript-based support and escalation.
+- [RAG Knowledge Base Assistant](https://github.com/HardikPaghdar/rag-knowledge-base-assistant) — document Q&A with source references.
+- [AI Agent Workflow Automation](https://github.com/HardikPaghdar/ai-agent-workflow-automation) — approved tool-call workflows.
+- [More projects on my portfolio](https://hardikpaghdar.netlify.app/).
